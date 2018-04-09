@@ -1,0 +1,10 @@
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  height: 2em;
+}
+.rating > span:before {
+   content: "\2605";
+   position: absolute;
+}
