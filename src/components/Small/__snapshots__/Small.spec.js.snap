@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Small should render Small 1`] = `
+<div>
+  <img
+    src="ansel.jpg"
+  />
+  <div
+    className="Description"
+  >
+    <ul>
+      <li
+        key="name"
+      >
+        name
+        : 
+        Tetons and Snake River
+      </li>
+      <li
+        key="photographer"
+      >
+        photographer
+        : 
+        Ansel Adams
+      </li>
+      <li
+        key="location"
+      >
+        location
+        : 
+        Tetons
+      </li>
+    </ul>
+  </div>
+  <div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <div>
+        Reviewer: 
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Joe
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Frank
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <div>
+        Reviewer: 
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Mike
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <div>
+        Reviewer: 
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Bill
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Bill
+      </div>
+    </div>
+  </div>
+</div>
+`;
