@@ -1,8 +1,12 @@
 import React from 'react';
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+
+import photoApp from '../../store/reducers';
 
 import PhotoDescription from '../PhotoDescription/PhotoDescription';
-import Ratings from '../Ratings/Ratings';
-import Ansel from './ansel.jpg';
+import ActiveRatings from '../ActiveRatings/ActiveRatings'
+import Ansel from './ansel.jpg'; const store = createStore(photoApp)
 
 function getRating(count) {
   return Array(count).fill('').map((item, index) => {
@@ -26,10 +30,12 @@ const defaultPhoto = {
 
 export default function Photo({ photo = defaultPhoto}) {
   return(
-    <div>
-      <img alt="Grand Tetons" src={photo.src}/>
-      <PhotoDescription description={ photo.description} />
-      <Ratings ratings={photo.ratings} />
-    </div>
+    <Provider store={store}>
+      <div>
+        <img alt="Grand Tetons" src={photo.src}/>
+        <PhotoDescription description={ photo.description} />
+        <ActiveRatings ratings={photo.ratings} />
+      </div>
+    </Provider>
   )
 }

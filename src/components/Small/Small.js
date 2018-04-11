@@ -24,7 +24,7 @@ const defaultPhoto = {
 export default function Small({ photo = defaultPhoto}) {
   return(
     <div>
-      <img src={photo.src}/>
+      <img alt="Grand Tetons" src={photo.src}/>
       <div className="Description">
         <ul>
           {Object.keys(photo.description).map(key => {
