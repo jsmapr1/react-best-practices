@@ -4,7 +4,6 @@ import { toggleRating } from '../../store/actions';
 import './rating.css';
 
 export function ActiveRatings({ activeRatings, onReviewClick, ratings }) {
-  console.log(activeRatings);
   return(
     <div>
       {ratings.map(rating => {

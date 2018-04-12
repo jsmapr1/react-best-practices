@@ -9,6 +9,7 @@ import './App.css';
 import Small from './components/Small/Small';
 import Photo from './components/Photo/Photo';
 import PhotoWithActiveRatings from './components/PhotoWithActiveRatings/PhotoWithActiveRatings'
+import PhotoWithActiveRatingsState from './components/PhotoWithActiveRatingsState/PhotoWithActiveRatingsState'
 
 const Home = () => (
   <div>
@@ -30,8 +31,7 @@ const Topics = ({ match }) => (
         <Link to={`${match.url}/rendering`}>
           Rendering with React
         </Link>
-      </li>
-      <li>
+      </li> <li>
         <Link to={`${match.url}/components`}>
           Components
         </Link>
@@ -66,7 +66,8 @@ class App extends Component {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/small">Small</Link></li>
               <li><Link to="/refactor">Refactor</Link></li>
-              <li><Link to="/state">State</Link></li>
+              <li><Link to="/external-state">External State</Link></li>
+              <li><Link to="/local-state">Local State</Link></li>
               <li><Link to="/topics">Topics</Link></li>
             </ul>
 
@@ -75,13 +76,11 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/small" component={Small}/>
             <Route path="/refactor" component={Photo}/>
-            <Route path="/state" component={PhotoWithActiveRatings}/>
+            <Route path="/external-state" component={PhotoWithActiveRatings}/>
+            <Route path="/local-state" component={PhotoWithActiveRatingsState}/>
             <Route path="/active" component={Topics}/>
           </div>
         </Router>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
