@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingsWithHoc should show not show reviewer if open is false 1`] = `
+<div
+  className="rating"
+  key="foo"
+>
+  <h3>
+    Rating
+  </h3>
+  <span
+    key="0"
+  />
+  <div>
+    <a
+      onClick={[Function]}
+    >
+      See Reviewer
+    </a>
+  </div>
+</div>
+`;
+
+exports[`RatingsWithHoc should show show reviewer if open is true 1`] = `
+<div
+  className="rating"
+  key="foo"
+>
+  <h3>
+    Rating
+  </h3>
+  <span
+    key="0"
+  />
+  <span
+    key="1"
+  />
+  <span
+    key="2"
+  />
+  <span
+    key="3"
+  />
+  <span
+    key="4"
+  />
+  <div
+    onClick={[Function]}
+  >
+    Reviewer: 
+    Bill
+  </div>
+</div>
+`;
