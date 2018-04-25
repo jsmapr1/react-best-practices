@@ -8,7 +8,7 @@ describe('RatingsWithHoc', () => {
     const rating = {
       id: 'foo',
       reviewer: 'Bill',
-      stars: 5
+      rating: 5
     }
     const wrapper = shallow(
       <Rating

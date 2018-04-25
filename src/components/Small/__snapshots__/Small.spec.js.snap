@@ -3,6 +3,7 @@
 exports[`Small should render Small 1`] = `
 <div>
   <img
+    alt="Grand Tetons"
     src="ansel.jpg"
   />
   <div
@@ -40,6 +41,21 @@ exports[`Small should render Small 1`] = `
         Rating
       </h3>
       <span />
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Bill
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
       <div>
         Reviewer: 
         Brian
@@ -64,62 +80,6 @@ exports[`Small should render Small 1`] = `
       <h3>
         Rating
       </h3>
-      <span />
-      <span />
-      <div>
-        Reviewer: 
-        Brian
-      </div>
-    </div>
-    <div
-      className="rating"
-    >
-      <h3>
-        Rating
-      </h3>
-      <span />
-      <span />
-      <span />
-      <div>
-        Reviewer: 
-        Frank
-      </div>
-    </div>
-    <div
-      className="rating"
-    >
-      <h3>
-        Rating
-      </h3>
-      <span />
-      <div>
-        Reviewer: 
-        Brian
-      </div>
-    </div>
-    <div
-      className="rating"
-    >
-      <h3>
-        Rating
-      </h3>
-      <span />
-      <span />
-      <span />
-      <span />
-      <div>
-        Reviewer: 
-        Brian
-      </div>
-    </div>
-    <div
-      className="rating"
-    >
-      <h3>
-        Rating
-      </h3>
-      <span />
-      <span />
       <span />
       <div>
         Reviewer: 
@@ -147,10 +107,49 @@ exports[`Small should render Small 1`] = `
       <span />
       <span />
       <span />
+      <div>
+        Reviewer: 
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <span />
       <span />
       <div>
         Reviewer: 
-        Bill
+        Brian
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <div>
+        Reviewer: 
+        Evan
+      </div>
+    </div>
+    <div
+      className="rating"
+    >
+      <h3>
+        Rating
+      </h3>
+      <span />
+      <span />
+      <div>
+        Reviewer: 
+        Joe
       </div>
     </div>
     <div
@@ -164,7 +163,7 @@ exports[`Small should render Small 1`] = `
       <span />
       <div>
         Reviewer: 
-        Bill
+        Mike
       </div>
     </div>
   </div>

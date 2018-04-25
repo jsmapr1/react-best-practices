@@ -11,6 +11,18 @@ exports[`RatingsWithHoc should show not show reviewer if open is false 1`] = `
   <span
     key="0"
   />
+  <span
+    key="1"
+  />
+  <span
+    key="2"
+  />
+  <span
+    key="3"
+  />
+  <span
+    key="4"
+  />
   <div>
     <a
       onClick={[Function]}
